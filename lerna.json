@@ -3,7 +3,7 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "changelog": {
-    "repo": "ant-design/pro-components",
+    "repo": "next-dev-team/react-next-library",
     "cacheDir": ".changelog"
   },
   "ignoreChanges": [
