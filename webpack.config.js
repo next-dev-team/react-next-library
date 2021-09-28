@@ -18,7 +18,7 @@ const externals = isCI
   ? tailPkgs.reduce((pre, value) => {
       return {
         ...pre,
-        [`@ant-design/pro-${value}`]: `Pro${value
+        [`@ant-design/${value}`]: `${value
           .toLowerCase()
           .replace(/( |^)[a-z]/g, (L) => L.toUpperCase())}`,
       };
@@ -39,7 +39,7 @@ tailPkgs.forEach((pkg) => {
     entry,
     output: {
       filename: '[name].js',
-      library: `Pro${pkg.toLowerCase().replace(/( |^)[a-z]/g, (L) => L.toUpperCase())}`,
+      library: `${pkg.toLowerCase().replace(/( |^)[a-z]/g, (L) => L.toUpperCase())}`,
       libraryTarget: 'umd',
       path: path.resolve(__dirname, 'packages', pkg, 'dist'),
       globalObject: 'this',

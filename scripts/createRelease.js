@@ -52,7 +52,7 @@ const getMds = (allVersion = false) => {
     }
     console.log(versions);
     versions.map((version) => {
-      const versionPkg = `@ant-design/pro-${pkg}@${version}`;
+      const versionPkg = `@ant-design/${pkg}@${version}`;
       const changeLog = getChangelog(content, versionPkg);
       if (!changeLog) {
         return;

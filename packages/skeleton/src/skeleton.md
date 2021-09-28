@@ -23,18 +23,6 @@ return <Skeleton type="list" />;
 
 ## DEMO
 
-### List
-
-<code src="./demos/list.tsx" title="List" />
-
-### 结果页
-
-<code src="./demos/result.tsx" title="结果页" />
-
-### 详情页
-
-<code src="./demos/descriptions.tsx" title="详情页" />
-
 ## API
 
 | 参数 | 说明 | 类型 | 默认值 |

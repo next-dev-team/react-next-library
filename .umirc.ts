@@ -11,7 +11,7 @@ const pkgList = readdirSync(join(__dirname, 'packages')).filter(
 );
 
 const alias = pkgList.reduce((pre, pkg) => {
-  pre[`@ant-design/pro-${pkg}`] = join(__dirname, 'packages', pkg, 'src');
+  pre[`@ant-design/${pkg}`] = join(__dirname, 'packages', pkg, 'src');
   return {
     ...pre,
   };
@@ -131,22 +131,11 @@ export default defineConfig({
     '/components': [
       {
         title: '架构设计',
-        children: ['components.md', 'schema.md'],
+        children: ['schema.md'],
       },
 
       {
         title: '通用',
-        children: ['skeleton'],
-      },
-    ],
-    '/en-US/components': [
-      {
-        title: 'Architecture Design',
-        children: ['components.en-US.md'],
-      },   
-     
-      {
-        title: 'General',
         children: ['skeleton'],
       },
     ],

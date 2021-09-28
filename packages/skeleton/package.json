@@ -1,5 +1,5 @@
 {
-    "name": "@ant-design/pro-skeleton",
+    "name": "@ant-design/skeleton",
     "version": "1.0.1",
     "description": "@ant-design/pro-skeleton",
     "keywords": [
@@ -33,7 +33,8 @@
         "ie >= 11"
     ],
     "dependencies": {
-        "use-media-antd-query": "^1.0.6"
+        "use-media-antd-query": "^1.0.6",
+        "@shopify/polaris-tokens": "^4.0.0"
     },
     "peerDependencies": {
         "antd": "4.x",

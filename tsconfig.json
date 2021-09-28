@@ -13,8 +13,9 @@
     "declaration": true,
     "skipLibCheck": true,
     "paths": {
-      "@ant-design/pro-skeleton": ["./packages/skeleton/src/index.tsx"],
-      "@ant-design/pro-provider": ["./packages/provider/src/index.tsx"],
+      "@ant-design/skeleton": ["./packages/skeleton/src/index.tsx"],
+      "@ant-design/provider": ["./packages/provider/src/index.tsx"],
+      "@ant-design/rn-helpers": ["./packages/rn-helpers/src/index.tsx"]
     }
   },
   "include": [
