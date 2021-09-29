@@ -4,7 +4,7 @@
 
 See our website [@ant-design/pro-skeleton](https://procomponent.ant.design/) for more information.
 
-## Install
+## Install1
 
 Using npm:
 

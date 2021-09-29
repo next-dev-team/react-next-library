@@ -11,6 +11,7 @@ _roadhog-api-doc
 /.vscode
 **/**/lib/**
 **/**/es/**
+**/**/**/node_modules/**
 # misc
 .DS_Store
 npm-debug.log*
@@ -39,3 +40,6 @@ screenshot
 .eslintcache
 .changelog
 .changelog.md
+
+
+

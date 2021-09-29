@@ -1,10 +1,10 @@
 ---
-title: 简介
+title: Docs
 order: 1
 group:
   path: /
 nav:
-  title: 文档
+  title: Docs
   order: 1
   path: /docs
 ---

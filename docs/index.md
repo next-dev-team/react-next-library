@@ -7,7 +7,7 @@ hero:
   desc: 🏆 Make middle and backstage development easier
   actions:
     - text: 🥳 quick-start →
-      link: /en-US/docs/getting-started
+      link: /getting-started
 
 features:
   - icon: https://gw.alipayobjects.com/os/q/cms/images/k9ziitmp/13668549-b393-42a2-97c3-a6365ba87ac2_w96_h96.png

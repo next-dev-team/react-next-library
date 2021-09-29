@@ -1,20 +1,21 @@
 {
-  "version": "independent",
-  "npmClient": "yarn",
-  "useWorkspaces": true,
-  "changelog": {
-    "repo": "next-dev-team/react-next-library",
-    "cacheDir": ".changelog"
-  },
-  "ignoreChanges": [
-    "**/*.md",
-    "**/*.test.ts",
-    "**/*.e2e.ts",
-    "**/demos/**",
-    "**/fixtures/**",
-    "**/dist/**",
-    "**/lib/**",
-    "**/es/**",
-    "**/test/**"
-  ]
+    "version": "independent",
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "changelog": {
+        "repo": "next-dev-team/react-next-library",
+        "cacheDir": ".changelog"
+    },
+    "ignoreChanges": [
+        "**/*.md",
+        "**/*.test.ts",
+        "**/*.e2e.ts",
+        "**/demos/**",
+        "**/fixtures/**",
+        "**/dist/**",
+        "**/lib/**",
+        "**/es/**",
+        "**/test/**",
+        "**/example/**"
+    ]
 }
