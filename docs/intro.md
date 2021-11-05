@@ -5,7 +5,7 @@ group:
   path: /
 nav:
   title: Docs
-  order: 1
+  order: 2
   path: /docs
 ---
 

@@ -1,3 +1,1 @@
-export * from './theme';
-
-export {};
+export * from './Button';

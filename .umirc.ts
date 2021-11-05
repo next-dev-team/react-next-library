@@ -31,16 +31,7 @@ export default defineConfig({
   title: 'Sila',
   mode: 'site',
   logo: 'https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg',
-  extraBabelPlugins: [
-    [
-      'import',
-      {
-        libraryName: 'antd',
-        libraryDirectory: 'es',
-        style: true,
-      },
-    ],
-  ],
+  styles: [`https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css`],
   metas: [
     {
       property: 'og:site_name',
@@ -122,24 +113,11 @@ export default defineConfig({
   },
   ignoreMomentLocale: true,
   headScripts: ['https://gw.alipayobjects.com/os/antfincdn/fdj3WlJd5c/darkreader.js'],
-  links:
-    process.env.NODE_ENV === 'development'
-      ? ['https://gw.alipayobjects.com/os/lib/antd/4.6.6/dist/antd.css']
-      : [],
+  links: ['https://gw.alipayobjects.com/os/lib/antd/4.6.6/dist/antd.css'],
   externals: { darkreader: 'window.DarkReader' },
-  menus: {
-    '/components': [
-      {
-        title: '架构设计',
-        children: ['schema.md'],
-      },
+  // menus: {
 
-      {
-        title: '通用',
-        children: ['skeleton'],
-      },
-    ],
-  },
+  // },
   webpack5: {},
   // mfsu: !isDeploy ? {} : undefined,
   fastRefresh: {},

@@ -33,8 +33,9 @@
         "ie >= 11"
     ],
     "dependencies": {
-        "use-media-antd-query": "^1.0.6",
-        "@shopify/polaris-tokens": "^4.0.0"
+        "postcss": "7.x",
+        "postcss-import": "12.x",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat"
     },
     "peerDependencies": {
         "antd": "4.x",
