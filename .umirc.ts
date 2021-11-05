@@ -88,14 +88,14 @@ export default defineConfig({
       null,
       {
         title: 'GitHub',
-        path: 'https://github.com/next-dev-team/react-next-library-boilerplate',
+        path: 'https://github.com/next-dev-team/react-next-library',
       },
     ],
     'zh-CN': [
       null,
       {
         title: 'GitHub',
-        path: 'https://github.com/next-dev-team/react-next-library-boilerplate',
+        path: 'https://github.com/next-dev-team/react-next-library',
       },
     ],
   },
@@ -107,8 +107,8 @@ export default defineConfig({
   hash: true,
   ssr: isDeploy ? {} : undefined,
   exportStatic: {},
-  base: '/react-next-library-boilerplate',
-  publicPath: '/react-next-library-boilerplate/',
+  base: '/react-next-library',
+  publicPath: '/react-next-library/',
   targets: {
     chrome: 80,
     firefox: false,
