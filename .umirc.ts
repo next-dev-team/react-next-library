@@ -32,6 +32,16 @@ export default defineConfig({
   mode: 'site',
   logo: 'https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg',
   styles: [`https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css`],
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+    ],
+  ],
   metas: [
     {
       property: 'og:site_name',
@@ -63,6 +73,7 @@ export default defineConfig({
       content: 'black-translucent',
     },
   ],
+  //@ts-ignore
   alias: process.env === 'development' ? alias : {},
   // 用于切换 antd 暗黑模式
   // antd: {
@@ -71,10 +82,7 @@ export default defineConfig({
   resolve: {
     includes: [...tailPkgList, 'docs'],
   },
-  locales: [
-    ['zh-CN', '中文'],
-    ['en-US', 'English'],
-  ],
+  locales: [['en-US', 'English']],
   navs: {
     'en-US': [
       null,
@@ -113,7 +121,7 @@ export default defineConfig({
   },
   ignoreMomentLocale: true,
   headScripts: ['https://gw.alipayobjects.com/os/antfincdn/fdj3WlJd5c/darkreader.js'],
-  links: ['https://gw.alipayobjects.com/os/lib/antd/4.6.6/dist/antd.css'],
+  // links: ['https://gw.alipayobjects.com/os/lib/antd/4.6.6/dist/antd.css'],
   externals: { darkreader: 'window.DarkReader' },
   // menus: {
 
