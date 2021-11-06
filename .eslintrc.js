@@ -8,5 +8,6 @@ module.exports = {
     'no-buffer-constructor': 0,
     'no-new-require': 0,
     'no-path-concat': 0,
+    '@typescript-eslint/consistent-type-imports': 0,
   },
 };

@@ -21,7 +21,7 @@ yarn-error.log
 .idea
 package-lock.json
 *bak
-.vscode
+# .vscode
 
 # visual studio code
 .history
@@ -40,6 +40,3 @@ screenshot
 .eslintcache
 .changelog
 .changelog.md
-
-
-

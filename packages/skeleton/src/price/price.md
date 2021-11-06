@@ -1,5 +1,5 @@
 ---
-title: Button
+title: Price
 group:
   path: /
   title: Display
@@ -10,6 +10,6 @@ nav:
   order: 1
 ---
 
-# Button
+# Pricing
 
-<code src="../Button/demo.tsx" />
+<code src="../price/demo.tsx" />

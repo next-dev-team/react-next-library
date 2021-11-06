@@ -5,7 +5,7 @@ const Demo = () => {
   return (
     <>
       <div className="max-w-lg mx-auto">
-        <Button />
+        <Button title="Test" />
       </div>
     </>
   );
