@@ -1,5 +1,5 @@
 {
-    "private": true,
+    "private": "false",
     "license": "MIT",
     "name": "component-collections-next",
     "workspaces": [
@@ -146,7 +146,9 @@
         "webpack-cli": "^4.7.0",
         "write-pkg": "^4.0.0",
         "xhr-mock": "^2.5.1",
-        "yorkie": "^2.0.0"
+        "yorkie": "^2.0.0",
+        "@umijs/plugin-esbuild": "^1.3.0"
+
     },
     "gitHooks": {
         "pre-commit": "pretty-quick --staged",
@@ -166,7 +168,6 @@
         }
     ],
     "dependencies": {
-        "@ant-design/icons": "^4.7.0",
-        "@umijs/plugin-esbuild": "^1.3.0"
+        "@ant-design/icons": "^4.7.0"
     }
 }
