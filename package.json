@@ -1,5 +1,4 @@
 {
-    "private": true,
     "license": "MIT",
     "name": "@next-dev-team/component-collections-next",
     "workspaces": [
