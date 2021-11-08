@@ -1,17 +1,16 @@
 import React from 'react';
 import { Pricing1, Pricing2, Pricing3 } from '.';
+import { DemoLayout } from '../helper/layout';
 
 const Demo = () => {
   return (
-    <>
-      <div className="flex justify-center">
-        <Pricing1 />
-        <Pricing2 />
-      </div>
-      <div className="flex justify-center mt-10 ">
-        <Pricing3 />
-      </div>
-    </>
+    <DemoLayout
+      data={[
+        { title: 'Price1', component: <Pricing1 /> },
+        { title: 'Price2', component: <Pricing2 /> },
+        { title: 'Price3', component: <Pricing3 /> },
+      ]}
+    />
   );
 };
 

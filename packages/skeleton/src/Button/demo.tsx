@@ -1,13 +1,33 @@
 import React from 'react';
 import { Button } from '.';
+import { DemoLayout } from '../helper';
 
 const Demo = () => {
   return (
-    <>
-      <div className="max-w-lg mx-auto">
-        <Button title="Test" />
-      </div>
-    </>
+    <DemoLayout
+      data={[
+        {
+          component: <Button title="Test" className="w-28" />,
+          title: 'Button',
+        },
+        {
+          component: <Button title="Test" />,
+          title: 'Button',
+        },
+        {
+          component: <Button title="Test" />,
+          title: 'Button',
+        },
+        {
+          component: <Button title="Test" />,
+          title: 'Button',
+        },
+        {
+          component: <Button title="Test" />,
+          title: 'Button',
+        },
+      ]}
+    />
   );
 };
 

@@ -40,3 +40,4 @@ screenshot
 .eslintcache
 .changelog
 .changelog.md
+.env

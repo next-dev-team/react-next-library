@@ -120,7 +120,7 @@ async function release() {
     {
       type: 'input',
       name: 'otp',
-      message: '请输入 otp 的值，留空表示不使用 otp',
+      message: 'Please enter the value of otp, leave it blank to indicate not to use',
     },
   ]);
 
