@@ -154,18 +154,11 @@
         "commit-msg": "fabric verify-commit"
     },
     "size-limit": [{
-            "path": "packages/provider/dist/**/*.js",
-            "limit": "100 s",
-            "webpack": false,
-            "running": false
-        },
-        {
-            "path": "packages/skeleton/dist/**/*.js",
-            "limit": "100 s",
-            "webpack": false,
-            "running": false
-        }
-    ],
+        "path": "packages/skeleton/dist/**/*.js",
+        "limit": "100 s",
+        "webpack": false,
+        "running": false
+    }],
     "dependencies": {
         "@ant-design/icons": "^4.7.0"
     }

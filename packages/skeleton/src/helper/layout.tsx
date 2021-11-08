@@ -6,10 +6,10 @@ import Text from 'antd/lib/typography/Text';
 import Title from 'antd/lib/typography/Title';
 // @ts-ignore
 import jsxToString from 'jsx-to-string';
-import { capitalize, isEmpty, lowerCase } from 'lodash';
 import { ReactNode, useState } from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { _capitalize, _isEmpty, _lowerCase } from './lodash';
 
 export type IDemoLayout = {
   data: {
@@ -40,7 +40,7 @@ export const DemoLayout = (props: IDemoLayout) => {
 
   const { run: onSearch } = useDebounceFn(
     (v: string) => {
-      const filterVal = data?.filter((i) => lowerCase(i.title).includes(v.toLowerCase()));
+      const filterVal = data?.filter((i) => _lowerCase(i.title).includes(v.toLowerCase()));
       setItemData(v ? filterVal : data);
     },
     { wait: 100 },
@@ -57,14 +57,14 @@ export const DemoLayout = (props: IDemoLayout) => {
         />
       }
     >
-      <Row gutter={gutter} justify={isEmpty(itemData) ? 'center' : 'start'}>
-        {isEmpty(itemData) && <Empty />}
+      <Row gutter={gutter} justify={_isEmpty(itemData) ? 'center' : 'start'}>
+        {_isEmpty(itemData) && <Empty />}
 
         {itemData?.map?.((i, k) => {
           const code =
             view !== 'fullCode'
               ? jsxToString(i.component)
-              : `export const ${capitalize(i.title)} = ({...rest}:I${capitalize(i.title)}) => {
+              : `export const ${_capitalize(i.title)} = ({...rest}:I${_capitalize(i.title)}) => {
           return ${jsxToString(i.component).replace('/>', '{...rest} />')}
         }
         `;
