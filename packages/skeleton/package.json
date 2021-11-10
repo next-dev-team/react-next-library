@@ -1,6 +1,6 @@
 {
     "name": "component-collections-next",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "@ant-design/pro-skeleton",
     "keywords": [
         "antd",
@@ -33,13 +33,13 @@
         "ie >= 11"
     ],
     "dependencies": {
+        "@types/lodash-es": "4.17.5",
+        "classnames": "2.3.1",
+        "lodash-es": "4.17.21",
         "postcss": "7.x",
         "postcss-import": "12.x",
-        "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-        "classnames": "2.3.1",
         "tailwind-override": "0.4.0",
-        "lodash-es": "4.17.21",
-        "@types/lodash-es": "4.17.5"
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat"
     },
     "peerDependencies": {
         "react": ">=16.9.0"

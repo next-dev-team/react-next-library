@@ -13,7 +13,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "paths": {
-      "@ant-design/skeleton": ["./packages/skeleton/src/index.tsx"]
+      "@ant-design/skeleton": ["packages/skeleton/src/index.ts"]
     }
   },
   "include": [
