@@ -1,6 +1,7 @@
 import React from 'react';
-import { Pricing1, Pricing2, Pricing3 } from '.';
+import { Pricing1, Pricing3 } from '.';
 import { DemoLayout } from '../helper/layout';
+import { Pricing2 } from './components/price2';
 
 const Demo = () => {
   return (

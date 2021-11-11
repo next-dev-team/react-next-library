@@ -22,5 +22,3 @@ export function getNotNullVal<T>(values: T): T {
     (v: any) => v !== null && v !== undefined && v !== ' ' && v !== 'null' && v !== '',
   );
 }
-
-export * from './layout';

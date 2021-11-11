@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '.';
-import { DemoLayout } from '../helper';
+import { DemoLayout } from '../helper/layout';
 
 const Demo = () => {
   return (

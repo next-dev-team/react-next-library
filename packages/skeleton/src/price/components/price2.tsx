@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const Pricing2 = () => {
   return (
     <div className="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow border-purple-500">
